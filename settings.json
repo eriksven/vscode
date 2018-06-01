@@ -1,4 +1,8 @@
 {
     "workbench.sideBar.location": "right",
-    "editor.fontFamily": "'Courier New', monospace"
+    "editor.fontFamily": "'Courier New', monospace",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true
 }
