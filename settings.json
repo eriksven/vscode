@@ -1,6 +1,11 @@
 {
+    // It just feels more natural
     "workbench.sideBar.location": "right",
-    "editor.fontFamily": "'Courier New', monospace",
+    // Doesn't hurt my eyes
+    "editor.fontFamily": "'Courier New'",
+    // Literally saves lives
+    "editor.formatOnSave": true,
+    // GitLens default settings
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
