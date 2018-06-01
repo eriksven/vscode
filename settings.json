@@ -1,4 +1,6 @@
 {
+    // Good vibes
+    "workbench.colorTheme": "Solarized Dark",
     // It just feels more natural
     "workbench.sideBar.location": "right",
     // Doesn't hurt my eyes
@@ -9,11 +11,13 @@
     "terminal.integrated.cursorBlinking": true,
     // Gives it a bit more air
     "terminal.integrated.cursorStyle": "underline",
-    // Literally saves lives
+    // This literally saves lives
     "editor.formatOnSave": true,
     // GitLens default settings
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "gitlens.historyExplorer.enabled": true
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.gitExplorer.files.layout": "auto",
+    "git.enableSmartCommit": true,
 }
