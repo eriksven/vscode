@@ -6,7 +6,9 @@
     // Doesn't hurt my eyes
     "editor.fontFamily": "'Courier New'",
     // Yep, in the terminal too
-    "terminal.integrated.fontFamily": "Courier New'",
+    "terminal.integrated.fontFamily": "Monaco",
+    // Still readable
+    "terminal.integrated.fontSize": 11,
     // I want to know if it's alive
     "terminal.integrated.cursorBlinking": true,
     // Gives it a bit more air
