@@ -15,6 +15,8 @@
     "terminal.integrated.cursorStyle": "underline",
     // This literally saves lives
     "editor.formatOnSave": true,
+    // Powershell is cool and all but...
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     // GitLens default settings
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
