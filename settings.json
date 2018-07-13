@@ -8,6 +8,7 @@
     // Yep, in the terminal too
     "terminal.integrated.fontFamily": "monospace",
     // Still readable
+    "editor.fontSize": 12,
     "terminal.integrated.fontSize": 11,
     // I want to know if it's alive
     "terminal.integrated.cursorBlinking": true,
@@ -17,11 +18,15 @@
     "editor.formatOnSave": true,
     // Powershell is cool and all but...
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    // GitLens default settings
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
+    // This is good I guess
     "gitlens.historyExplorer.enabled": true,
+    // I don't wanna care about this
     "gitlens.gitExplorer.files.layout": "auto",
+    // Sounds good too
     "git.enableSmartCommit": true,
+    // Don't wanna see this in the explorer
+    "files.exclude": {
+        // Quite extreme!
+        "**/.*": true,
+    }
 }
