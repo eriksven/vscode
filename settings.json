@@ -20,13 +20,19 @@
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     // This is good I guess
     "gitlens.historyExplorer.enabled": true,
-    // I don't wanna care about this
+    // Yes take care of it for me
     "gitlens.gitExplorer.files.layout": "auto",
     // Sounds good too
     "git.enableSmartCommit": true,
     // Don't wanna see this in the explorer
     "files.exclude": {
-        // Quite extreme!
+        // I'd rather build an included list for these
         "**/.*": true,
+        // Turn your explorer into an app-hang-minesweeper game! I'm done with that.
+        "**/node_modules": true,
+        // Don't care about lock files
+        "**/*.lock": true,
+        // There's an integrated terminal for this
+        "**/*.log": true
     }
 }
