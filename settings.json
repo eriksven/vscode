@@ -34,5 +34,7 @@
         "**/*.lock": true,
         // There's an integrated terminal for this
         "**/*.log": true
-    }
+    },
+    // I want one ElixirSense server per project folder
+    "elixir.autoSpawnElixirSenseServers": true
 }
