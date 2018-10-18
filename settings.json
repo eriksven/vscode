@@ -1,7 +1,4 @@
 {
-  // Good vibes
-  "workbench.colorTheme": "Tomorrow Night Blue",
-  // It just feels more natural
   "workbench.sideBar.location": "right",
   // Doesn't hurt my eyes
   "editor.fontFamily": "'Courier New'",
@@ -16,6 +13,7 @@
   "terminal.integrated.cursorStyle": "underline",
   // This literally saves lives
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
   // Powershell is cool and all but...
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   // This is good I guess
@@ -34,15 +32,38 @@
     // There's an integrated terminal for this
     "**/*.log": true
   },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.elixir_ls": true
+  },
 
-  "[elixir]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.wordBasedSuggestions": false,
-    "editor.formatOnType": true,
-    "editor.acceptSuggestionOnEnter": "on",
-    "editor.trimAutoWhitespace": true,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true
-  }
+  "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe",
+  "team.showWelcomeMessage": false,
+  "todo-tree.defaultHighlight": {
+    "foreground": "green",
+    "type": "none"
+  },
+  "todo-tree.customHighlight": {
+    "TODO": {},
+    "FIXME": {}
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Monokai Dimmed",
+  "explorer.confirmDragAndDrop": false,
+  "eslint.validate": [
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true
 }
