@@ -15,11 +15,9 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   // Powershell is cool and all but...
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  // This is good I guess
-  "gitlens.historyExplorer.enabled": true,
-  // Yes take care of it for me
-  "gitlens.gitExplorer.files.layout": "auto",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+  // Start in interactive mode, so that .bashrc gets loaded
+  "terminal.integrated.shellArgs.windows": ["-i"],
   // Sounds good too
   "git.enableSmartCommit": true,
   // Don't wanna see this in the explorer
@@ -37,7 +35,7 @@
     "**/.elixir_ls": true
   },
 
-  "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe",
+  "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe",
   "team.showWelcomeMessage": false,
   "todo-tree.defaultHighlight": {
     "foreground": "green",
@@ -49,7 +47,7 @@
   },
   "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "explorer.confirmDragAndDrop": false,
   "eslint.validate": [
     {
@@ -65,5 +63,11 @@
       "autoFix": true
     }
   ],
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "gitlens.views.repositories.files.layout": "auto",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "workbench.iconTheme": "vs-minimal",
+  "explorer.confirmDelete": false,
+  "terminal.integrated.rendererType": "dom"
 }
