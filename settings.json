@@ -1,11 +1,8 @@
 {
   "workbench.sideBar.location": "right",
-  // Doesn't hurt my eyes
-  "editor.fontFamily": "'Courier New'",
-  // Yep, in the terminal too
-  "terminal.integrated.fontFamily": "'Courier New'",
   // Still readable
   "editor.fontSize": 12,
+  "editor.renderWhitespace": "all",
   "terminal.integrated.fontSize": 12,
   // I want to know if it's alive
   "terminal.integrated.cursorBlinking": true,
@@ -34,39 +31,10 @@
     "**/node_modules": true,
     "**/.elixir_ls": true
   },
-
-  "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe",
-  "team.showWelcomeMessage": false,
-  "todo-tree.defaultHighlight": {
-    "foreground": "green",
-    "type": "none"
-  },
-  "todo-tree.customHighlight": {
-    "TODO": {},
-    "FIXME": {}
-  },
   "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "workbench.colorTheme": "Arc+ (Dark Monochrome)",
   "explorer.confirmDragAndDrop": false,
-  "eslint.validate": [
-    {
-      "language": "html",
-      "autoFix": true
-    },
-    {
-      "language": "vue",
-      "autoFix": true
-    },
-    {
-      "language": "javascript",
-      "autoFix": true
-    }
-  ],
-  "eslint.autoFixOnSave": true,
-  "gitlens.views.repositories.files.layout": "auto",
-  "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
   "workbench.iconTheme": "vs-minimal",
   "explorer.confirmDelete": false,
   "terminal.integrated.rendererType": "dom"
