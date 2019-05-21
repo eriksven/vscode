@@ -2,3 +2,4 @@ workspaceStorage/
 *.settings.json
 globalStorage/state.vscdb
 globalStorage/state.vscdb.backup
+globalStorage/alefragnani.project-manager/projects.json

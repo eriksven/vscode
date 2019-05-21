@@ -2,6 +2,7 @@
   "workbench.sideBar.location": "right",
   // Still readable
   "editor.fontSize": 12,
+  "editor.fontLigatures": true,
   "editor.renderWhitespace": "all",
   "terminal.integrated.fontSize": 12,
   // I want to know if it's alive
@@ -33,7 +34,7 @@
   },
   "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Arc+ (Dark Monochrome)",
+  "workbench.colorTheme": "Universe",
   "explorer.confirmDragAndDrop": false,
   "workbench.iconTheme": "vs-minimal",
   "explorer.confirmDelete": false,
